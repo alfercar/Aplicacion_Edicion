@@ -1,0 +1,3635 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Tareas",
+  "labelResults": "Resultados",
+  "showFilterLabel": true,
+  "criteiraLabel": "Criterios de consulta",
+  "spatialFilterLabel": "Filtros espaciales",
+  "queries": [
+    {
+      "url": "",
+      "name": "Tiendas",
+      "icon": {
+        "color": [
+          241,
+          11,
+          50,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "cod_postal",
+              "label": "cod_postal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "cod_postal IS NULL",
+            "expr": "cod_postal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "subtipo",
+              "label": "subtipo",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "subtipo IS NULL",
+            "expr": "subtipo IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codsubcategoria",
+              "label": "codsubcategoria",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codsubcategoria IS NULL",
+            "expr": "codsubcategoria IS NULL"
+          }
+        ],
+        "expr": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (web IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (municipio IS NULL) OR (municipio IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (horario IS NULL) OR (fechaactualizacion IS NULL) OR (subtipo IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL) OR (codsubcategoria IS NULL)",
+        "displaySQL": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (web IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (municipio IS NULL) OR (municipio IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (horario IS NULL) OR (fechaactualizacion está vacío) OR (subtipo IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL) OR (codsubcategoria IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": {
+          "default": true
+        }
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          241,
+          11,
+          50,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_7304",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/7",
+      "name": "Teatros",
+      "icon": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codigo_postal",
+              "label": "codigo_postal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codigo_postal IS NULL",
+            "expr": "codigo_postal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (nombre IS NULL) OR (municipio IS NULL) OR (telefono IS NULL) OR (direccion IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (descripcion IS NULL) OR (email IS NULL) OR (web IS NULL) OR (codigo_postal IS NULL) OR (fechaactualizacion está vacío) OR (pais IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (horario IS NULL) OR (plan IS NULL) OR (codplan IS NULL)",
+        "expr": "(objectid IS NULL) OR (nombre IS NULL) OR (municipio IS NULL) OR (telefono IS NULL) OR (direccion IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (descripcion IS NULL) OR (email IS NULL) OR (web IS NULL) OR (codigo_postal IS NULL) OR (fechaactualizacion IS NULL) OR (pais IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (horario IS NULL) OR (plan IS NULL) OR (codplan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_5083",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/6",
+      "name": "Parques",
+      "icon": {
+        "color": [
+          9,
+          199,
+          69,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codigopostal",
+              "label": "codigopostal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codigopostal IS NULL",
+            "expr": "codigopostal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (municipio IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (pais IS NULL) OR (descripcion IS NULL) OR (codigopostal IS NULL) OR (fechaactualizacion está vacío) OR (valoracion IS NULL) OR (horario IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)",
+        "expr": "(objectid IS NULL) OR (municipio IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (pais IS NULL) OR (descripcion IS NULL) OR (codigopostal IS NULL) OR (fechaactualizacion IS NULL) OR (valoracion IS NULL) OR (horario IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          9,
+          199,
+          69,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_124",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/5",
+      "name": "Ocio Nocturno",
+      "icon": {
+        "color": [
+          6,
+          6,
+          46,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "cod_postal",
+              "label": "cod_postal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "cod_postal IS NULL",
+            "expr": "cod_postal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "subtipo",
+              "label": "subtipo",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "subtipo IS NULL",
+            "expr": "subtipo IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codsubcategoria",
+              "label": "codsubcategoria",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codsubcategoria IS NULL",
+            "expr": "codsubcategoria IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (municipio IS NULL) OR (fechaactualizacion está vacío) OR (subtipo IS NULL) OR (web IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL) OR (codsubcategoria IS NULL)",
+        "expr": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (municipio IS NULL) OR (fechaactualizacion IS NULL) OR (subtipo IS NULL) OR (web IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL) OR (codsubcategoria IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          6,
+          6,
+          46,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_7692",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/2",
+      "name": "Deporte",
+      "icon": {
+        "color": [
+          114,
+          102,
+          13,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "cod_postal",
+              "label": "cod_postal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "cod_postal IS NULL",
+            "expr": "cod_postal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "instalacion",
+              "label": "instalacion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "instalacion IS NULL",
+            "expr": "instalacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (municipio IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (instalacion IS NULL) OR (fechaactualizacion está vacío) OR (web IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)",
+        "expr": "(objectid IS NULL) OR (nombre IS NULL) OR (email IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (direccion IS NULL) OR (cod_postal IS NULL) OR (municipio IS NULL) OR (pais IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (instalacion IS NULL) OR (fechaactualizacion IS NULL) OR (web IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          114,
+          102,
+          13,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_3134",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/4",
+      "name": "Museos",
+      "icon": {
+        "color": [
+          11,
+          218,
+          236,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codigopostal",
+              "label": "codigopostal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codigopostal IS NULL",
+            "expr": "codigopostal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (municipio IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (web IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (email IS NULL) OR (email IS NULL) OR (pais IS NULL) OR (telefono IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (codigopostal IS NULL) OR (fechaactualizacion está vacío) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)",
+        "expr": "(objectid IS NULL) OR (municipio IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (web IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (horario IS NULL) OR (email IS NULL) OR (email IS NULL) OR (pais IS NULL) OR (telefono IS NULL) OR (telefono IS NULL) OR (descripcion IS NULL) OR (codigopostal IS NULL) OR (fechaactualizacion IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (codplan IS NULL) OR (plan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          11,
+          218,
+          236,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_3727",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/1",
+      "name": "Cines",
+      "icon": {
+        "color": [
+          255,
+          255,
+          255,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "direccion",
+              "label": "direccion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "direccion IS NULL",
+            "expr": "direccion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codigopostal",
+              "label": "codigopostal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codigopostal IS NULL",
+            "expr": "codigopostal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "telefono",
+              "label": "telefono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "telefono IS NULL",
+            "expr": "telefono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (municipio IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (web IS NULL) OR (email IS NULL) OR (pais IS NULL) OR (codigopostal IS NULL) OR (descripcion IS NULL) OR (telefono IS NULL) OR (valoracion IS NULL) OR (fechaactualizacion está vacío) OR (imgurl IS NULL) OR (horario IS NULL) OR (codplan IS NULL) OR (plan IS NULL)",
+        "expr": "(objectid IS NULL) OR (municipio IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (nombre IS NULL) OR (direccion IS NULL) OR (web IS NULL) OR (email IS NULL) OR (pais IS NULL) OR (codigopostal IS NULL) OR (descripcion IS NULL) OR (telefono IS NULL) OR (valoracion IS NULL) OR (fechaactualizacion IS NULL) OR (imgurl IS NULL) OR (horario IS NULL) OR (codplan IS NULL) OR (plan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          255,
+          255,
+          255,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_334",
+      "customResultName": true
+    },
+    {
+      "url": "https://laptop-fnu1dc9a/server/rest/services/Datos_PlanApp_editables1/FeatureServer/0",
+      "name": "Bares",
+      "icon": {
+        "color": [
+          235,
+          243,
+          0,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "objectid",
+              "label": "objectid",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeOID"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "objectid IS NULL",
+            "expr": "objectid IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "distrito",
+              "label": "distrito",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "distrito IS NULL",
+            "expr": "distrito IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "barrio",
+              "label": "barrio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "barrio IS NULL",
+            "expr": "barrio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_x",
+              "label": "coordenada_x",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_x IS NULL",
+            "expr": "coordenada_x IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "coordenada_y",
+              "label": "coordenada_y",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "coordenada_y IS NULL",
+            "expr": "coordenada_y IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "calle_edificio",
+              "label": "calle_edificio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "calle_edificio IS NULL",
+            "expr": "calle_edificio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "numero_edificio",
+              "label": "numero_edificio",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "numero_edificio IS NULL",
+            "expr": "numero_edificio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "tipo_via_estab",
+              "label": "tipo_via_estab",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "tipo_via_estab IS NULL",
+            "expr": "tipo_via_estab IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "calle_estab",
+              "label": "calle_estab",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "calle_estab IS NULL",
+            "expr": "calle_estab IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "nombre",
+              "label": "nombre",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "nombre IS NULL",
+            "expr": "nombre IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "tipo_estab_subtype",
+              "label": "tipo_estab_subtype",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "tipo_estab_subtype IS NULL",
+            "expr": "tipo_estab_subtype IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "email",
+              "label": "email",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "email IS NULL",
+            "expr": "email IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "web",
+              "label": "web",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "web IS NULL",
+            "expr": "web IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "horario",
+              "label": "horario",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "horario IS NULL",
+            "expr": "horario IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "descripcion",
+              "label": "descripcion",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "descripcion IS NULL",
+            "expr": "descripcion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "fechaactualizacion",
+              "label": "fechaactualizacion",
+              "dateFormat": "shortDateShortTime",
+              "shortType": "date",
+              "type": "esriFieldTypeDate"
+            },
+            "operator": "dateOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "_useStandardizedQueries": true,
+            "displaySQL": "fechaactualizacion está vacío",
+            "expr": "fechaactualizacion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codigopostal",
+              "label": "codigopostal",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codigopostal IS NULL",
+            "expr": "codigopostal IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "pais",
+              "label": "pais",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "pais IS NULL",
+            "expr": "pais IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "municipio",
+              "label": "municipio",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "municipio IS NULL",
+            "expr": "municipio IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "valoracion",
+              "label": "valoracion",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "valoracion IS NULL",
+            "expr": "valoracion IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "imgurl",
+              "label": "imgurl",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "imgurl IS NULL",
+            "expr": "imgurl IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "teléfono",
+              "label": "teléfono",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "teléfono IS NULL",
+            "expr": "teléfono IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codsubcategoria",
+              "label": "codsubcategoria",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codsubcategoria IS NULL",
+            "expr": "codsubcategoria IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "codplan",
+              "label": "codplan",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "codplan IS NULL",
+            "expr": "codplan IS NULL"
+          },
+          {
+            "fieldObj": {
+              "name": "plan",
+              "label": "plan",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIsBlank",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "plan IS NULL",
+            "expr": "plan IS NULL"
+          }
+        ],
+        "displaySQL": "(objectid IS NULL) OR (distrito IS NULL) OR (barrio IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (calle_edificio IS NULL) OR (numero_edificio IS NULL) OR (tipo_via_estab IS NULL) OR (calle_estab IS NULL) OR (nombre IS NULL) OR (tipo_estab_subtype IS NULL) OR (email IS NULL) OR (web IS NULL) OR (horario IS NULL) OR (descripcion IS NULL) OR (fechaactualizacion está vacío) OR (codigopostal IS NULL) OR (pais IS NULL) OR (municipio IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (teléfono IS NULL) OR (codsubcategoria IS NULL) OR (codplan IS NULL) OR (plan IS NULL)",
+        "expr": "(objectid IS NULL) OR (distrito IS NULL) OR (barrio IS NULL) OR (coordenada_x IS NULL) OR (coordenada_y IS NULL) OR (calle_edificio IS NULL) OR (numero_edificio IS NULL) OR (tipo_via_estab IS NULL) OR (calle_estab IS NULL) OR (nombre IS NULL) OR (tipo_estab_subtype IS NULL) OR (email IS NULL) OR (web IS NULL) OR (horario IS NULL) OR (descripcion IS NULL) OR (fechaactualizacion IS NULL) OR (codigopostal IS NULL) OR (pais IS NULL) OR (municipio IS NULL) OR (valoracion IS NULL) OR (imgurl IS NULL) OR (teléfono IS NULL) OR (codsubcategoria IS NULL) OR (codplan IS NULL) OR (plan IS NULL)"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          235,
+          243,
+          0,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Datos_PlanApp_editables1_5445",
+      "customResultName": true
+    }
+  ]
+}

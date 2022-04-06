@@ -1,0 +1,2596 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "style3",
+      "default",
+      "style2"
+    ],
+    "version": "2.23",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#6495ed"
+    }
+  },
+  "portalUrl": "https://esmastergis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "<div class=\"attribute-custom-style\"><b><span> </span>Aplicación interna de edición</b></div>",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images/logo.jpeg",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.23",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_20",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_21",
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_Search_Widget_22",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_OverviewMap_Widget_23",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_ZoomSlider_Widget_24",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_25",
+        "name": "HomeButton",
+        "version": "2.23"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 25,
+          "top": 215,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_MyLocation_Widget_26",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.23",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_27",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 20,
+          "bottom": 60,
+          "relativeTo": "map"
+        },
+        "id": "widgets_Coordinate_Widget_28",
+        "name": "Coordinate",
+        "version": "2.23",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_28.json"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 27,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_Scalebar_Widget_29",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_29.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.23",
+        "id": "widgets_Splash_Widget_30",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_30.json"
+      },
+      {
+        "position": {
+          "right": 130,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_31",
+        "name": "SmartEditor",
+        "version": "2.23",
+        "closeable": true,
+        "icon": "configs\\SmartEditor\\icon__31.png",
+        "uri": "widgets/SmartEditor/Widget",
+        "config": "configs/SmartEditor/config__31.json",
+        "label": "Editor de entidades"
+      },
+      {
+        "position": {
+          "right": 180,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "Query",
+        "version": "2.23",
+        "closeable": true,
+        "uri": "widgets/Query/Widget",
+        "icon": "configs\\Query\\icon__32.png",
+        "config": "configs/Query/config__32.json",
+        "label": "Consulta de datos vacíos"
+      },
+      {
+        "position": {
+          "right": 230,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_33",
+        "version": "2.23",
+        "closeable": true,
+        "uri": "widgets/PointLocator/Widget",
+        "name": "PointLocator",
+        "label": "Localizador de puntos",
+        "IsController": false
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 255,
+          "left": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_ExtentNavigate_Widget_34",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 70,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.23",
+        "id": "widgets_FullScreen_Widget_35",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "0d664bb12f2941b3b9c6a7400a9c9f63",
+    "mapOptions": {
+      "extent": {
+        "xmin": -418750.26986702613,
+        "ymin": 4925124.146255597,
+        "xmax": -407896.2118505457,
+        "ymax": 4931439.755717651,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://esmastergis.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.23",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.23",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.23",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 20,
+            "bottom": 60
+          }
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 50,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.23"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "right": 10,
+            "bottom": 238,
+            "relativeTo": "map"
+          },
+          "version": "2.23"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 70,
+            "top": 20
+          },
+          "version": "2.23"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#3081ce",
+    "backgroundImage": {
+      "visible": false,
+      "uri": "configs/loading/images/background.jpeg",
+      "width": 1200,
+      "height": 1200
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/5/configs/loading/images/predefined_loading_4.gif",
+      "width": 34,
+      "height": 34
+    }
+  },
+  "wabVersion": "2.23",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~_32~0": {
+        "id": "widget~_32~0",
+        "type": "Features",
+        "label": "Tiendas",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "Nombre",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "Telefono",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripcion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "Web",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "Direccion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "cod_postal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod_Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "cod_postal"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "Municipio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "subtipo",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Subcategoría",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": 13,
+              "modelName": "subtipo"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            },
+            {
+              "name": "codsubcategoria",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODSUBCATEGORIA",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codsubcategoria"
+            }
+          ],
+          "displayField": "nombre",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": "subtipo"
+        }
+      },
+      "widget~_32~1": {
+        "id": "widget~_32~1",
+        "type": "Features",
+        "label": "Teatros",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "NOMBRE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "MUNICIPIO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "TELEFONO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "DIRECCION",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeInteger",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeInteger",
+              "alias": "Coordenada_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripcion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "Web",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "codigo_postal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codigo_postal"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            }
+          ],
+          "displayField": "nombre",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~_32~2": {
+        "id": "widget~_32~2",
+        "type": "Features",
+        "label": "Parques",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "MUNICIPIO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "NOMBRE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "DIRECCION",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeInteger",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeInteger",
+              "alias": "Coordenada_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripcion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "codigopostal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codigopostal"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            }
+          ],
+          "displayField": "municipio",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~_32~3": {
+        "id": "widget~_32~3",
+        "type": "Features",
+        "label": "Ocio Nocturno",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "Nombre",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "Telefono",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripcion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "Direccion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "cod_postal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod_Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "cod_postal"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "Municipio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "subtipo",
+              "type": "esriFieldTypeSmallInteger",
+              "alias": "Subcategoría",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": 1,
+              "modelName": "subtipo"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "Web",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            },
+            {
+              "name": "codsubcategoria",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODSUBCATEGORIA",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codsubcategoria"
+            }
+          ],
+          "displayField": "nombre",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": "subtipo"
+        }
+      },
+      "widget~_32~4": {
+        "id": "widget~_32~4",
+        "type": "Features",
+        "label": "Deporte",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "Nombre",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "Telefono",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripcion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "Direccion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "cod_postal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod_Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "cod_postal"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "Municipio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coord_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coord_y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "instalacion",
+              "type": "esriFieldTypeString",
+              "alias": "Instalacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000,
+              "defaultValue": null,
+              "modelName": "instalacion"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "_fechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "Web",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            }
+          ],
+          "displayField": "nombre",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~_32~5": {
+        "id": "widget~_32~5",
+        "type": "Features",
+        "label": "Museos",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "MUNIC",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 80,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "NOMBRE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 90,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "CALLE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 70,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "WEB",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 150,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeInteger",
+              "alias": "UTM_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeInteger",
+              "alias": "UTM_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "HORARIO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "EMAIL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "PAIS",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "TELEFONO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "DESCRIPCION",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 1000,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "codigopostal",
+              "type": "esriFieldTypeInteger",
+              "alias": "COD POSTAL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codigopostal"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaACtctualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            }
+          ],
+          "displayField": "municipio",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~_32~6": {
+        "id": "widget~_32~6",
+        "type": "Features",
+        "label": "Cines",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "LOCALIDAD",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 31,
+              "defaultValue": null,
+              "modelName": "municipio"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeInteger",
+              "alias": "UTM_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeInteger",
+              "alias": "UTM_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "NOMBRE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 70,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "DIRECCION",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 91,
+              "defaultValue": null,
+              "modelName": "direccion"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "WEB",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "EMAIL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "PAIS",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "pais"
+            },
+            {
+              "name": "codigopostal",
+              "type": "esriFieldTypeInteger",
+              "alias": "COD POSTAL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codigopostal"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "DESCRIPCION",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "telefono",
+              "type": "esriFieldTypeString",
+              "alias": "TELEFONO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "telefono"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "HORARIO",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            }
+          ],
+          "displayField": "municipio",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~_32~7": {
+        "id": "widget~_32~7",
+        "type": "Features",
+        "label": "Bares",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "ObjectID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "distrito",
+              "type": "esriFieldTypeString",
+              "alias": "Distrito",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "distrito"
+            },
+            {
+              "name": "barrio",
+              "type": "esriFieldTypeString",
+              "alias": "Barrio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "barrio"
+            },
+            {
+              "name": "coordenada_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_X",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_x"
+            },
+            {
+              "name": "coordenada_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada_Y",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "coordenada_y"
+            },
+            {
+              "name": "calle_edificio",
+              "type": "esriFieldTypeString",
+              "alias": "Calle_Edificio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "calle_edificio"
+            },
+            {
+              "name": "numero_edificio",
+              "type": "esriFieldTypeDouble",
+              "alias": "Numero_Edificio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "numero_edificio"
+            },
+            {
+              "name": "tipo_via_estab",
+              "type": "esriFieldTypeString",
+              "alias": "Tipo_Via_Estab",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "tipo_via_estab"
+            },
+            {
+              "name": "calle_estab",
+              "type": "esriFieldTypeString",
+              "alias": "Calle_Estab",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "calle_estab"
+            },
+            {
+              "name": "nombre",
+              "type": "esriFieldTypeString",
+              "alias": "Nombre",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "nombre"
+            },
+            {
+              "name": "tipo_estab_subtype",
+              "type": "esriFieldTypeInteger",
+              "alias": "Subcategoría",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": 1,
+              "modelName": "tipo_estab_subtype"
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "email"
+            },
+            {
+              "name": "web",
+              "type": "esriFieldTypeString",
+              "alias": "Web",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "web"
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "Horario",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "horario"
+            },
+            {
+              "name": "descripcion",
+              "type": "esriFieldTypeString",
+              "alias": "Descripción",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "descripcion"
+            },
+            {
+              "name": "fechaactualizacion",
+              "type": "esriFieldTypeDate",
+              "alias": "FechaActualizacion",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "fechaactualizacion"
+            },
+            {
+              "name": "codigopostal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Cod Postal",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codigopostal"
+            },
+            {
+              "name": "pais",
+              "type": "esriFieldTypeString",
+              "alias": "Pais",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": "Spain",
+              "modelName": "pais"
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "Municipio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": "Madrid",
+              "modelName": "municipio"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "GlobalID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "valoracion",
+              "type": "esriFieldTypeInteger",
+              "alias": "Valoración",
+              "domain": {
+                "type": "codedValue",
+                "name": "Valoracion2",
+                "description": "La valoración esta restringida del 1 al 5",
+                "codedValues": [
+                  {
+                    "name": "Malo",
+                    "code": 1
+                  },
+                  {
+                    "name": "Regular",
+                    "code": 2
+                  },
+                  {
+                    "name": "Bueno",
+                    "code": 3
+                  },
+                  {
+                    "name": "Muy bueno",
+                    "code": 4
+                  },
+                  {
+                    "name": "Excelente",
+                    "code": 5
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "valoracion"
+            },
+            {
+              "name": "imgurl",
+              "type": "esriFieldTypeString",
+              "alias": "ImgURL",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "imgurl"
+            },
+            {
+              "name": "teléfono",
+              "type": "esriFieldTypeString",
+              "alias": "Teléfono",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": "(+34) 914 380 553",
+              "modelName": "teléfono"
+            },
+            {
+              "name": "codsubcategoria",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODSUBCATEGORIA",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codsubcategoria"
+            },
+            {
+              "name": "codplan",
+              "type": "esriFieldTypeInteger",
+              "alias": "CODPLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codplan"
+            },
+            {
+              "name": "plan",
+              "type": "esriFieldTypeString",
+              "alias": "PLAN",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "plan"
+            }
+          ],
+          "displayField": "distrito",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": "tipo_estab_subtype"
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoAlt": "",
+  "logoLink": ""
+}
